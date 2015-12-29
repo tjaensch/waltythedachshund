@@ -44,6 +44,9 @@
     "vinyl-source-stream": "^1.0.0",
     "watchify": "^2.4.0"
   },
+  "engines": {
+    "node": "4.2.4"
+  },
   "dependencies": {
     "react-swipeable": "^3.0.2"
   }

@@ -1,1 +1,1 @@
-web: node
+web: gulp dev
