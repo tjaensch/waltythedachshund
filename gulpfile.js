@@ -16,9 +16,9 @@ var watchify = require('watchify');
 
 gulp.task('server', function () {
   connect.server({
-    root: ['example', 'build'],
-    port: 8001,
-    livereload: true
+    root: ['walty', 'build'],
+    port: process.env.PORT || 8001,
+    livereload: false
   });
 });
 
@@ -32,14 +32,14 @@ gulp.task('sass', function () {
 
 gulp.task('scripts', function() {
   watchify(browserify({
-    entries: ['./example/app.js'],
+    entries: ['./walty/app.js'],
     extensions: ['.jsx'],
     transform: [babelify]
   }))
     .bundle()
-    .pipe(source('example.js'))
+    .pipe(source('walty.js'))
     .pipe(streamify(uglify()))
-    .pipe(gulp.dest('./example/'))
+    .pipe(gulp.dest('./walty/'))
     .pipe(livereload());
 });
 
@@ -53,7 +53,7 @@ gulp.task('source-js', function () {
 gulp.task('watch', function() {
   livereload.listen();
   gulp.watch(['src/*.scss'], ['sass']);
-  gulp.watch(['src/*.jsx', 'example/app.js'], ['scripts']);
+  gulp.watch(['src/*.jsx', 'walty/app.js'], ['scripts']);
 });
 
 gulp.task('dev', ['watch', 'scripts', 'sass', 'server']);

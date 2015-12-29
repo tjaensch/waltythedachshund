@@ -149,12 +149,14 @@ $ig-blue: #337ab7;
   background: $ig-white;
   overflow: hidden;
   padding-top: 10px;
+  background-color: #f0f0f0;
 
   .image-gallery-thumbnails-container {
     cursor: pointer;
     text-align: center;
     transition: all .45s ease-out;
     white-space: nowrap;
+    background-color: #f0f0f0;
   }
 
 }

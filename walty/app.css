@@ -1,6 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
 body {
   margin: 0;
   padding: 0;
+  background-color: #f0f0f0;
 }
 
 ul, li {
@@ -15,6 +18,11 @@ li {
 
 li + li {
   margin-left: 10px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #614d42;
 }
 
 .app {
@@ -33,9 +41,9 @@ li + li {
 }
 
 .app-sandbox {
-  margin-top: 20px;
-  border-top: 4px solid #eee;
-  padding: 20px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  color: #614d42;
 }
 
 .app-button {
@@ -57,33 +65,4 @@ li + li {
 .app-button:hover {
   border: 1px solid #222;
   transition: border .4s ease-in;
-}
-
-.featured-slide::before {
-  content: ' ';
-  width: 148px;
-  height: 149px;
-  background-image: url('./featured_ribbon.png');
-  background-size: 148px 149px;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
-@media (max-width: 768px) {
-  .featured-slide::before {
-    width: 74px;
-    height: 75px;
-    background-size: 74px 75px;
-  }
-}
-
-.featured-thumb.active img {
-  border: 4px solid #E12822;
-}
-
-@media (max-width: 768px) {
-  .featured-thumb.active img {
-    border: 3px solid #E12822;
-  }
 }
