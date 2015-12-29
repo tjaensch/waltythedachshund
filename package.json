@@ -45,7 +45,8 @@
     "watchify": "^2.4.0"
   },
   "engines": {
-    "node": "4.2.4"
+    "node": "4.2.4",
+    "npm": "2.14.12"
   },
   "dependencies": {
     "react-swipeable": "^3.0.2"

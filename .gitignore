@@ -4,3 +4,4 @@ npm-debug.log
 
 build/
 example/walty.js
+node_modules
