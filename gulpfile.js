@@ -16,7 +16,7 @@ var watchify = require('watchify');
 
 gulp.task('server', function () {
   connect.server({
-    root: ['walty', 'build'],
+    root: ['walty'],
     port: process.env.PORT || 8001,
     livereload: false
   });
