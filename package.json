@@ -4,7 +4,7 @@
   "description": "Image gallery component for React.JS",
   "main": "./build/image-gallery",
   "scripts": {
-    "test": "gulp dev"
+    "start": "gulp server"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,7 @@
     "url": "https://github.com/linxtion/react-image-gallery/issues"
   },
   "homepage": "https://github.com/linxtion/react-image-gallery",
-  "devDependencies": {
+  "dependencies": {
     "babelify": "^6.1.3",
     "browserify": "^9.0.3",
     "gulp": "^3.8.11",
@@ -42,13 +42,11 @@
     "react-addons-linked-state-mixin": "^0.14.0",
     "react-dom": "^0.14.0",
     "vinyl-source-stream": "^1.0.0",
-    "watchify": "^2.4.0"
+    "watchify": "^2.4.0",
+    "react-swipeable": "^3.0.2"
   },
   "engines": {
     "node": "4.2.4",
     "npm": "2.14.12"
-  },
-  "dependencies": {
-    "react-swipeable": "^3.0.2"
   }
 }
