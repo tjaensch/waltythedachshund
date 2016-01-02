@@ -1,4 +1,4 @@
-# walty-image-gallery
+# waltythedachshund-image-gallery
 
 Responsive ReactJS/NdoeJS/Gulp image gallery based on this https://github.com/linxtion/react-image-gallery
 

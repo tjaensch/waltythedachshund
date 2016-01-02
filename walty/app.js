@@ -103,7 +103,7 @@ const App = React.createClass({
         />
 
       <div className='app-sandbox'>
-          <p><small>Thomas Jaensch 2015</small></p>
+          <p><small>Thomas Jaensch 2016</small></p>
       </div>
 
       </section>
