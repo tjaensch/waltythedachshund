@@ -1,7 +1,8 @@
 {
   "name": "walty-image-gallery",
-  "version": "1",
+  "version": "0.5.3",
   "description": "Image gallery component for React.JS",
+  "main": "./build/image-gallery",
   "scripts": {
     "start": "gulp server"
   },
