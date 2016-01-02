@@ -4,8 +4,7 @@
   "description": "Image gallery component for React.JS",
   "main": "./build/image-gallery",
   "scripts": {
-    "start": "gulp server",
-    "postinstall": "gulp server"
+    "start": "gulp server"
   },
   "repository": {
     "type": "git",
