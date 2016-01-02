@@ -3,5 +3,5 @@ npm-debug.log
 .DS_Store
 
 build/
-example/walty.js
+walty/walty.js
 node_modules
